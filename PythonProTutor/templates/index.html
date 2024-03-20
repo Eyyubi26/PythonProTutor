@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz</title>
+</head>
+<body>
+    <h1>Quiz</h1>
+    <div style="position: absolute; top: 10px; right: 10px;">
+        <h3>Highest Score: {{ highest_score }}</h3>
+    </div>
+    <form method="post">
+        <h2>What is your name?</h2>
+        <input type="text" name="username">
+
+        <h2>Where is the capital of Turkey?</h2>
+        <input type="text" name="answer1">
+
+        <h2>Who is the founder of Turkey?</h2>
+        <input type="text" name="answer2">
+
+        <h2>How many cities does Turkey have?</h2>
+        <input type="text" name="answer3">
+
+        <br>
+        <input type="submit" value="Submit Answers">
+    </form>
+    <footer style="text-align: center; position: bottom; margin-top: 25%;">
+        <p>Created by Eyüp İpler</p>
+    </footer>
+</body>
+</html>
